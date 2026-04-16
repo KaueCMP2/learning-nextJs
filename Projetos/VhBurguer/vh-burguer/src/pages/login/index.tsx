@@ -1,27 +1,28 @@
-//?-----------------------------------------------------
-//? Estrutura padrao
-//?-----------------------------------------------------
+import styles from "./login.module.css";
+//ESTRUTURA PADRÃO!
 const Login = () => {
     return (
         <>
-            <main>
-                <img src="" alt="" />
-                <aside>
+            <main className={styles.main}>
+                <img src="../imgs/hamburguer_login.png" alt="Hambúrguer com ingredientes flutuando em camadas sobre fundo escuro."/>
+                <div className={styles.campo_login}>
                     <h1>Login</h1>
-                    <form action="">
-                        <label htmlFor="email">E-mail</label>
-                        <input type="mail" placeholder="email@exemplo.com" name="email" required />
-
-                        <label htmlFor="password">Senha</label>
-                        <input type="password" placeholder="********" name="password" required />
-                        <a href="">Esqueceu sua senha?</a>
-
-                        <button type="submit" name="entrar" className="btn-entrar">Entrar</button>
+                    <form className={styles.formulario}>
+                        <div className={styles.campo_form}>
+                            <label htmlFor="email">E-mail</label>
+                            <input type="text" name="email" placeholder="email@exemplo.com" required />
+                        </div>
+                        <div className={styles.campo_form}>
+                            <label htmlFor="senha">Senha</label>
+                            <input type="password" name="senha" placeholder="*******" required />
+                        </div>
+                        <a className={styles.esq_senha} href="">Esqueceu sua senha?</a>
+                        <button>Entrar</button>
                     </form>
-                </aside>
+                </div>
             </main>
         </>
-    );
+    )
 }
 
 export default Login;

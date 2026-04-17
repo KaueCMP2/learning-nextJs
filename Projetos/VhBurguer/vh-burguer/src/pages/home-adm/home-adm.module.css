@@ -1,0 +1,92 @@
+/*?------------------------------------------------------------*/
+/*?                          Banner                            */
+/*?------------------------------------------------------------*/
+
+#banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#conteiner_banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 65%;
+}
+
+#titulo {
+    font-weight: 500;
+    font-size: 120px;
+    color: var(--laranja-destaque);
+    position: relative;
+}
+
+#banner_hamb_img {
+    height: 45%;
+    position: absolute;
+    top: 300px;
+}
+
+#placeholder_vaz {
+    height: 75%;
+    background-color: aqua;
+}
+
+#buttons_header {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn_chamar_atendente {
+    border: none;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: var(--tamanho-texto-btn);
+    background-color: var(--laranja-destaque);
+}
+
+#btn_ver_cardapio {
+    border: none;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: var(--tamanho-texto-btn);
+    color: var(--laranja-destaque);
+    background-color: var(--vinho);
+}
+
+
+/*?------------------------------------------------------------*/
+/*?                         Destaques                          */
+/*?------------------------------------------------------------*/
+
+
+#destaques {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-color: var(--fundo-escuro);
+}
+
+#conteiner_destaques {
+    display: grid;
+
+    width: 60%;
+    height: 60%;
+    color: var(--fundo-claro);
+}
+
+.dest_grande {
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}

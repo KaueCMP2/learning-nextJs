@@ -10,7 +10,7 @@ const Home = () => {
                 <section id={styles.banner}>
                     <div id={styles.conteiner_banner}>
                         <p id={styles.titulo}>BEM-VINDOS AO VH BURGUER</p>
-                        <img src="../imgs/foto_de_hamburgueres.png" alt="Foto que contem tres bonitos hamburgueres." id={styles.banner_hamb_img} />
+                        <img src="../imgs/foto_de_hamburgueres.png" alt="Foto que contem tres bonitos hamburgueres." id={styles.img_banner} />
                         <div id={styles.buttons_header}>
                             <button id={styles.btn_chamar_atendente}>
                                 Chamar atendente
@@ -30,16 +30,14 @@ const Home = () => {
                             <h3 className={styles.text_enfase}>MAIS PEDIDOS</h3>
                         </div>
 
-                        <div className={styles.lado_destaque}>
-                            <div className={styles.dest_peq}>
-                                <p className={styles.dest_text}>Lanches com</p>
-                                <h3>MUITO BACON</h3>
-                            </div>
+                        <div className={styles.dest_peq_cima}>
+                            <p className={styles.dest_text}>Lanches com</p>
+                            <h3 className={styles.text_enfase}>MUITO BACON</h3>
+                        </div>
 
-                            <div className={styles.dest_peq}>
-                                <p className={styles.dest_text}>Se tiver muita fome</p>
-                                <h3>SUPER COMBOS</h3>
-                            </div>
+                        <div className={styles.dest_peq_baixo}>
+                            <p className={styles.dest_text}>Se tiver muita fome</p>
+                            <h3 className={styles.text_enfase}>SUPER COMBOS</h3>
                         </div>
                     </div>
                 </section>
@@ -49,17 +47,14 @@ const Home = () => {
                     {/* Chamar componente da lista */}
                 </section>
                 <section id={styles.unidades}>
-                    <div id={styles.unidades_img}>
-                        <img src="../imgs/unidade.jpeg" alt="Imagem de uma da area interna de um restaurante de uma das unidade do VH Burguer" />
-                        <div id={styles.side_unidades}>
-                            <h3>Nossar uniddade</h3>
-                            <li id={styles.unidades_lista}>
-                                <ul>Centro - Av. Aurora, 742</ul>
-                                <ul>Jardim - Av. das Palmeiras, 1280</ul>
-                                <ul>Norte - Av. Horizonte, 305</ul>
-                                <ul>Sul - Av. Nova esperança, 910</ul>
-                            </li>
-                        </div>
+                    <div id={styles.side_unidades}>
+                        <h3>Nossas uniddade</h3>
+                        <li id={styles.unidades_lista}>
+                            <ul>Centro - Av. Aurora, 742</ul>
+                            <ul>Jardim - Av. das Palmeiras, 1280</ul>
+                            <ul>Norte - Av. Horizonte, 305</ul>
+                            <ul>Sul - Av. Nova esperança, 910</ul>
+                        </li>
                     </div>
                 </section>
             </main >

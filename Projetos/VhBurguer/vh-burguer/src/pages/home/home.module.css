@@ -14,23 +14,24 @@
 #conteiner_banner {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 90%;
-    height: 65%;
+    height: 85%;
 }
 
 #titulo {
-    font-weight: 0;
+    font-weight: 500;
     font-size: 80px;
     color: var(--laranja-destaque);
 }
 
-#banner_hamb_img {
-    height: 70%;
+#img_banner {
+    width: 800px;
 }
 
 #buttons_header {
-    width: 65%;
+    width: 58%;
     display: flex;
     justify-content: space-between;
 }
@@ -41,6 +42,8 @@
     height: 60px;
     border-radius: 10px;
     font-size: var(--tamanho-texto-btn);
+    color: var(--vinho);
+    font-weight: 500;
     background-color: var(--laranja-destaque);
     cursor: pointer;
 }
@@ -52,51 +55,7 @@
     border-radius: 10px;
     font-size: var(--tamanho-texto-btn);
     color: var(--laranja-destaque);
+    font-weight: 500;
     background-color: var(--vinho);
     cursor: pointer;
 }
-
-/*?------------------------------------------------------------*/
-/*?                         Destaques                          */
-/*?------------------------------------------------------------*/
-
-
-#destaques {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 80vh;
-    background-color: var(--fundo-escuro);
-}
-
-#conteiner_destaques {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-    width: 60%;
-    height: 60%;
-
-    gap: 10px;
-    color: var(--fundo-claro);
-}
-
-.lado_destaque {
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-
-    grid-column: 2;
-    gap: 10px;
-}
-
-.dest_grande {
-    grid-column: 1;
-    grid-column: 2;
-    
-    width: 90%;
-    height: 100%;
-    background-color: aqua;
-}
-
-.dest_peq {}

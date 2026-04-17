@@ -46,14 +46,15 @@ const Home = () => {
                     <h2>Cardapio</h2>
                     {/* Chamar componente da lista */}
                 </section>
+
                 <section id={styles.unidades}>
                     <div id={styles.side_unidades}>
-                        <h3>Nossas uniddade</h3>
+                        <h3 id={styles.text_un_titulo}>Nossas uniddade</h3>
                         <li id={styles.unidades_lista}>
-                            <ul>Centro - Av. Aurora, 742</ul>
-                            <ul>Jardim - Av. das Palmeiras, 1280</ul>
-                            <ul>Norte - Av. Horizonte, 305</ul>
-                            <ul>Sul - Av. Nova esperança, 910</ul>
+                            <ul className={styles.text_un_ul}>Centro - Av. Aurora, 742</ul>
+                            <ul className={styles.text_un_ul}>Jardim - Av. das Palmeiras, 1280</ul>
+                            <ul className={styles.text_un_ul}>Norte - Av. Horizonte, 305</ul>
+                            <ul className={styles.text_un_ul}>Sul - Av. Nova esperança, 910</ul>
                         </li>
                     </div>
                 </section>

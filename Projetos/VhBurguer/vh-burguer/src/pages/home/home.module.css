@@ -138,3 +138,35 @@
     font-weight: 500;
 }
 
+/*?------------------------------------------------------------*/
+/*?                         Unidades                          */
+/*?------------------------------------------------------------*/
+#cardapio {
+    height: 200vh;
+}
+
+/*?------------------------------------------------------------*/
+/*?                         Unidades                          */
+/*?------------------------------------------------------------*/
+
+#unidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 101vh;
+    
+    background-image: url('/imgs/unidade.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: var(--fundo-claro);
+}
+
+#text_un_titulo {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.text_un_ul {
+    font-size: 30px;
+}

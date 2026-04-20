@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/Header";
 import styles from "../home/home.module.css"
+import Cardapio from "@/components/cardapio/Cardapio";
 
 const Home = () => {
     return (
@@ -42,10 +43,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <section id={styles.cardapio}>
-                    <h2>Cardapio</h2>
-                    {/* Chamar componente da lista */}
-                </section>
+                <Cardapio />
 
                 <section id={styles.unidades}>
                     <div id={styles.side_unidades}>

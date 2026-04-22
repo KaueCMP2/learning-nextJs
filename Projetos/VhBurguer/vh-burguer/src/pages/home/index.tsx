@@ -1,4 +1,4 @@
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import styles from "../home/home.module.css"
 import Cardapio from "@/components/cardapio/Cardapio";

@@ -6,7 +6,7 @@
     justify-content: center;
 }
 
-.conteiner {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,11 +26,11 @@
     text-decoration: none;
     color: var(--vinho);
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
 }
 
-.icon_hamburguer {
-    border: none;
+#btn_icon {
+    display: none;
 }
 
 @media (max-width: 768px) {

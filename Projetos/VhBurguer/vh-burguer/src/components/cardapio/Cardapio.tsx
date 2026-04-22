@@ -5,7 +5,7 @@ const Cardapio = () => {
     return (
         <section id={styles.cardapio}>
             <h2 id={styles.titulo}>CARDÁPIO</h2>
-            <div id={styles.conteiner}>
+            <div id={styles.container}>
                 <button id={styles.btn_filtro}>
                     <span className={styles.texto_btn_filtro}>Filtrar</span>
                     <img src="../imgs/vector.svg" alt="" />

@@ -8,7 +8,7 @@
     color: var(--laranja-destaque);
 }
 
-#conteiner_footer {
+#container_footer {
     display: flex;
     flex-direction: column;
     width: 90%;

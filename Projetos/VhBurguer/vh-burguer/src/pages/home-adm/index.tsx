@@ -1,8 +1,8 @@
-import Footer from "@/components/footer/footer";
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
-import styles from "../home/home.module.css"
+import styles from "../home-adm/home-adm.module.css"
 
-const Home = () => {
+const HomeAdm = () => {
     return (
         <>
             <Header />
@@ -66,4 +66,4 @@ const Home = () => {
     );
 }
 
-export default Home;
+export default HomeAdm;

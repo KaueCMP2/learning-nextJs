@@ -3,7 +3,7 @@ import styles from './Header.module.css'
 const Header = () => {
     return (
         <header id={styles.header}>
-            <div className={`${styles.conteiner} layout_grid`}>
+            <div className={`${styles.container} layout_grid`}>
 
                 <img className={styles.img} src="../imgs/logo_vh_burguer.svg" alt="Logo do vh burguer que contem como plano de fundo um hamburguer" />
 

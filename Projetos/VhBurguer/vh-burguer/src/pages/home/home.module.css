@@ -31,7 +31,9 @@
 }
 
 #buttons_header {
-    width: 58%;
+    display: flex;
+    width: 50%;
+    gap: 10%;
     display: flex;
     justify-content: space-between;
 }

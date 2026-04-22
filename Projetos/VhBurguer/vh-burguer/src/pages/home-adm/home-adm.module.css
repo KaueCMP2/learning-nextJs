@@ -67,7 +67,6 @@
 /*?                         Destaques                          */
 /*?------------------------------------------------------------*/
 
-
 #destaques {
     display: flex;
     align-items: center;
@@ -79,14 +78,97 @@
 
 #conteiner_destaques {
     display: grid;
-
+    grid-template-columns: 1fr 1fr;
     width: 60%;
-    height: 60%;
+    height: 70%;
+    gap: 10px;
     color: var(--fundo-claro);
 }
 
 .dest_grande {
-    width: 50%;
-    height: 100%;
-    background-color: aqua;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    grid-column: 1;
+    grid-area: span 2;
+
+    width: 100%;
+    padding: 0 0 30px 20px;
+    border-radius: 20px;
+    background-image: url('/imgs/mais_pedidos.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.dest_peq_cima {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 100%;
+    padding: 0 20px 30px 0;
+    border-radius: 20px;
+    background-image: url('/imgs/muito_bacon.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.dest_peq_baixo {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    width: 100%;
+    padding: 0 20px 30px 0;
+    border-radius: 20px;
+    background-image: url('/imgs/super_combos.png');
+}
+
+.dest_text {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text_enfase {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+/*?------------------------------------------------------------*/
+/*?                         Unidades                          */
+/*?------------------------------------------------------------*/
+#cardapio {
+    height: 200vh;
+}
+
+
+/*?------------------------------------------------------------*/
+/*?                         Unidades                          */
+/*?------------------------------------------------------------*/
+
+#unidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 101vh;
+    
+    background-image: url('/imgs/unidade.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: var(--fundo-claro);
+}
+
+#text_un_titulo {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.text_un_ul {
+    font-size: 30px;
 }

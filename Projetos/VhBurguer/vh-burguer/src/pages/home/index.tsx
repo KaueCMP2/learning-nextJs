@@ -1,7 +1,8 @@
-import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import styles from "../home/home.module.css"
+import Footer from "@/components/footer/Footer";
 import Cardapio from "@/components/cardapio/Cardapio";
+import ListaProduto from "@/components/lista-produtos/ListaProdutos";
 
 const Home = () => {
     return (
@@ -43,7 +44,7 @@ const Home = () => {
                     </div>
                 </section>
 
-                <Cardapio />
+                <ListaProduto />
 
                 <section id={styles.unidades}>
                     <div id={styles.side_unidades}>

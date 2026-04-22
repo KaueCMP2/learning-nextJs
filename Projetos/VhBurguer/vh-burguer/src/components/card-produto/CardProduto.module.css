@@ -1,58 +1,9 @@
-#cardapio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: var(--fundo-claro);
-    padding: 6% 0 5% 0;
-}
-
-#titulo {
-    color: var(--laranja-destaque);
-    font-size: 80px;
-    font-weight: 500;
-    margin-bottom: 5%;
-}
-
-#btn_filtro {
-    background-color: var(--laranja-destaque);
-    color: var(--vinho);
-    font-size: 30px;
-    border: none;
-    font-weight: 500;
-    border-radius: 10px;
-    width: 200px;
-    height: 60px;
-    cursor: pointer;
-    margin-bottom: 5%;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-#container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 85%;
-    height: 100%;
-}
-
-#content {
-    display: grid;
-    grid-template-columns: repeat(3, 400px);
-    row-gap: 80px;
-    justify-content: space-between;
-}
-
 .card {
     display: flex;
     flex-direction: column;
     background-color: var(--fundo-claro);
     border-radius: 30px;
-    width: 100%;
+    width: 370px;
     height: 609px;
     box-shadow: 0px 0px 12px rgb(119, 119, 119);
 }
@@ -90,9 +41,9 @@
 
 .preco_content {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    height: 15%;
+    height: 13%;
     background-color: var(--vinho);
     color: var(--fundo-claro);
     border-radius: 0 0 20px 20px;
@@ -103,3 +54,16 @@
     font-weight: 500;
     font-size: 30px;
 }
+
+.btn_apag_prod {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn_edit_prod {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
